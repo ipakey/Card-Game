@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <link href='style.css' rel='Stylesheet'>
+    <script src='scripts.js' async></script>
+	    <title>Matching_Game_by_ClassList</title>
+</head>
+
+<body>
+    <h3 class='page-title'>Matching Game </br> by Yfke<h3>
+        <div  class='overlay-text visible'>
+        Click to Start
+        </div>
+        <div id='game-over-text' class='overlay-text'>
+        GAME OVER!
+        <span class='overlay-text-small'>Bad Luck: Click to Try Again</span>
+        </div>
+        <div id='victory-text' class='overlay-text'>
+        VICTORY!
+        <span class='overlay-text-small'>Well Done: Click to Try Again</span>
+        </div>
+       
+    <div class='game-container'>
+        <div class='game-info-container'>
+            <div class='game-info'>
+                Time <span id='time-remaining'>100</span>
+            </div>
+            <div class='game-info'>
+                Flips <span id='flips'>0</span>
+            </div>
+        </div>
+       <div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='eight'
+                src='Assets/Images/eight.jpg'>   
+            </div>            
+        </div>
+      <div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='eight'
+                src='Assets/Images/eight.jpg'>   
+            </div>            
+        </div>
+	<div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='six'
+                src='Assets/Images/six.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='five'
+                src='Assets/Images/five.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='two'
+                src='Assets/Images/two.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='six'
+                src='Assets/Images/six.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='seven'
+                src='Assets/Images/seven.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='four'
+                src='Assets/Images/four.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='three'
+                src='Assets/Images/three.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='one'
+                src='Assets/Images/one.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='seven'
+                src='Assets/Images/seven.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='two'
+                src='Assets/Images/two.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='three'
+                src='Assets/Images/three.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='four'
+                src='Assets/Images/four.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='five'
+                src='Assets/Images/five.jpg'>   
+            </div>            
+        </div><div class='card'>
+            <div class='card-back card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='blue-logo'
+                src='Assets/Images/The_Den_logo_circle.png'>            
+            </div>
+            
+            
+            <div class='card-front card-face'>
+                <img class='corner corner-top-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-top-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-left'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='corner corner-bottom-right'
+                src='Assets/Corners/corner_black.png'>
+                
+                <img class='card-value' alt='one'
+                src='Assets/Images/one.jpg'>   
+            </div>            
+        </div>
+    </div>
+</body></html>
+         
