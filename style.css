@@ -58,7 +58,8 @@ body {
     position: relative;
 	transform: -270deg;
 	scale:(0.5);
-
+    height: 175px;
+    width: 150px;
 }
 
 .card-inner {
